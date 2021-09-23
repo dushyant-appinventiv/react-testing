@@ -90,8 +90,8 @@ const TransactionCreateStepTwo: React.FC<TransactionCreateStepTwoProps> = ({
   const initialValues: FormValues = {
     amount: "",
     description: "",
-    senderId: sender.id,
-    receiverId: receiver.id,
+    senderId: sender?.id,
+    receiverId: receiver?.id,
   };
 
   return (
